@@ -1,6 +1,6 @@
 // Refer to Task 4 in your Instructions to complete this task
 
-for (let i = 0; i <= 105; i++) {
+for (let i = 1; i <= 105; i++) {
   if (i % 3 === 0 && i % 5 === 0 && i % 7 === 0) {
     console.log("FizzBuzzWoof");
   } else if (i % 3 === 0 && i % 5 === 0) {
