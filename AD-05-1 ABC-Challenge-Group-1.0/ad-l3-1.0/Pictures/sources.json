@@ -1,0 +1,56 @@
+[
+  {
+    "letter": "C",
+    "file": "C-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Coffee",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/330px-Latte_and_dark_coffee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "D",
+    "file": "D-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Duck",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Bucephala-albeola-010.jpg/330px-Bucephala-albeola-010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "O",
+    "file": "O-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Orange_(fruit)",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Oranges_-_whole-halved-segment.jpg/330px-Oranges_-_whole-halved-segment.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "P",
+    "file": "P-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Pencil",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Pencils_hb.jpg/330px-Pencils_hb.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "Q",
+    "file": "Q-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Quartz",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Quartz_Br%C3%A9sil.jpg/330px-Quartz_Br%C3%A9sil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "R",
+    "file": "R-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Rose",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/330px-Rosa_rubiginosa_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "S",
+    "file": "S-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Salt",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Rock_salt_%28halitite%29_%28Billianwala_Salt_Member%2C_Salt_Range_Formation%2C_Ediacaran_to_Lower_Cambrian%3B_Khewra_Salt_Mine%2C_Salt_Range%2C_Pakistan%29_14.jpg/330px-Rock_salt_%28halitite%29_%28Billianwala_Salt_Member%2C_Salt_Range_Formation%2C_Ediacaran_to_Lower_Cambrian%3B_Khewra_Salt_Mine%2C_Salt_Range%2C_Pakistan%29_14.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "T",
+    "file": "T-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Tree",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Usamljeni_jasen_-_panoramio_%28cropped%29.jpg/330px-Usamljeni_jasen_-_panoramio_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "letter": "Y",
+    "file": "Y-photo.jpg",
+    "page": "https://en.wikipedia.org/wiki/Yarn",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Yarn_at_Folklife_-_Stierch.jpg/330px-Yarn_at_Folklife_-_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  }
+]
