@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi lista de colores | Almacenamiento web</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="etiqueta">Laboratorio de almacenamiento web</p>
+      <h1>Mi lista de colores</h1>
+      <p class="introduccion">Explora los colores y sus referencias Pantone. La lista se guarda en este navegador para recuperarla cuando vuelvas.</p>
+      <div class="acciones"><button type="button" id="actualizar">Actualizar colores</button><button type="button" id="borrar" class="secundario">Borrar lista guardada</button></div>
+      <p id="estado" role="status" aria-live="polite">Cargando colores…</p>
+    </header>
+    <main id="list-items" aria-label="Lista de colores" aria-busy="true"></main>
+    <footer><p>Los datos se guardan mediante <code>localStorage</code> en este navegador. Puedes comprobar que se conservan al recargar la página.</p></footer>
+  </div>
+</body>
+</html>
