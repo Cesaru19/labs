@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f3f5f8; color: #233047; font-family: Arial, sans-serif; line-height: 1.7; }
+main { width: min(100% - 2rem, 850px); margin: 2rem auto; background: white; border: 1px solid #e1e6ee; border-radius: 14px; padding: clamp(1.25rem, 4vw, 2.5rem); }
+h1 { font-size: clamp(1.6rem, 4vw, 2.3rem); line-height: 1.25; }
+h2 { font-size: 1.2rem; }
+button { background: #175ac4; color: white; border: 0; border-radius: 7px; padding: .75rem 1rem; font: inherit; cursor: pointer; }
+button:hover { background: #10428f; }
+a { color: #175ac4; text-underline-offset: 3px; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #175ac4; outline-offset: 3px; }
+.volver { background: transparent; color: #175ac4; padding: 0; font-size: .9rem; }
+.volver:hover { background: transparent; text-decoration: underline; }
+.ejercicios { padding-left: 1.25rem; }
+.ejercicios li { padding-block: .7rem; }
+#text { padding: 1rem; background: #f3f5f8; border-radius: 7px; overflow-wrap: anywhere; }
+form { max-width: 500px; }
+label { display: block; font-weight: bold; margin-top: 1rem; }
+input { display: block; width: 100%; padding: .75rem; font: inherit; border: 1px solid #8290a4; border-radius: 7px; margin-bottom: 1.25rem; }
+#estado { margin-top: 1rem; }
+.enlaces { margin-top: 1.5rem; }
+.imagen-enlace { width: min(100%, 200px); height: auto; }
+.destinos { border-top: 1px solid #e1e6ee; margin-top: 2rem; padding-top: 1rem; }
+#container { background: #f3f5f8; border-radius: 7px; padding: 1rem 1.5rem; }
+#container > p { font-weight: bold; }
+.footer { font-size: .9rem; margin-top: 1.5rem; }

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ejercicio 2: nombres del formulario | Gestión de eventos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<button type="button" class="volver" onclick="window.location.href='index.html'">← Volver a los ejercicios</button>
+<h1>Ejercicio 2: nombres del formulario</h1>
+<p>Completa el formulario y pulsa el botón. Los valores se mostrarán en la consola del navegador: ábrela con F12 y selecciona Consola.</p><form id="form1" onsubmit="return getFormvalue(event)"><label for="nombre">Nombres</label><input id="nombre" type="text" name="fname" value="Cesar Joseph" autocomplete="given-name" required><label for="apellidos">Apellidos</label><input id="apellidos" type="text" name="lname" value="Luna Chiu" autocomplete="family-name" required><button type="submit">Mostrar en consola</button></form><p id="estado" role="status"></p>
+</main><script src="task2.js"></script></body>
+</html>

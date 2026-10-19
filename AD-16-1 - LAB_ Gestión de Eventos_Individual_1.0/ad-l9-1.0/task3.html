@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ejercicio 3: información de los enlaces | Gestión de eventos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<button type="button" class="volver" onclick="window.location.href='index.html'">← Volver a los ejercicios</button>
+<h1>Ejercicio 3: información de los enlaces</h1>
+<p>El botón cuenta todos los enlaces de esta página y muestra el primero y el último en una alerta.</p><button type="button" id="mostrarEnlaces">Mostrar información de los enlaces</button><section class="enlaces"><a href="https://example.com">Sitio de ejemplo</a><ul><li><a href="#home">Inicio</a></li><li><a href="#about">Acerca de</a></li><li><a href="#links">Enlaces</a></li><li><a href="#contact">Contacto</a></li></ul><p>Este es un párrafo de ejemplo con <a href="#links">enlaces</a> en el texto. Hay <a href="#several">varios</a> enlaces en esta <a href="#sentence">oración</a>. ¿Puedes <a href="#count">contarlos</a> todos?</p><a href="#img" aria-label="Imagen de un enlace"><img src="link.png" alt="Imagen de un enlace" class="imagen-enlace"></a></section><section class="destinos" aria-label="Destinos de los enlaces"><h2 id="home">Inicio</h2><p>Un enlace puede llevar a otra página o a una sección de esta misma página.</p><h2 id="about">Acerca de</h2><p>Esta actividad recorre la colección de enlaces del documento con JavaScript.</p><h2 id="links">Enlaces</h2><p id="several">Varios enlaces pueden apuntar al mismo destino.</p><p id="sentence">Los enlaces también pueden aparecer dentro de una oración.</p><p id="count">La alerta muestra el número de elementos, aunque algunos compartan destino.</p><p id="contact">Contacto es otro ejemplo de destino interno.</p><p id="img">El último enlace de la página contiene una imagen.</p></section>
+</main><script src="task3.js"></script></body>
+</html>
