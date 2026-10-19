@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratorio Bootstrap | Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Laboratorio Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Mostrar u ocultar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="index2.html">Página 2</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Las filas de Bootstrap usan flexbox. La primera fila suma 12 columnas: 2 + 8 + 2. -->
+  <main class="container d-flex flex-column gap-4 py-5">
+    <div class="row g-3">
+      <aside class="col-2">
+        <div class="bg-primary-subtle rounded p-3 h-100">El lado izquierdo</div>
+      </aside>
+      <section class="col-8">
+        <div class="bg-white border rounded p-3 p-md-4">
+          <p class="text-primary fw-semibold">La parte central</p>
+          <h1 class="mb-3">Componentes de Bootstrap</h1>
+          <p class="text-secondary">Prueba una alerta dinámica y completa el formulario de abajo.</p>
+
+          <section class="mb-4" aria-labelledby="alertHeading">
+            <h2 class="h4" id="alertHeading">Alerta dinámica</h2>
+            <div id="liveAlertPlaceholder" aria-live="polite" aria-atomic="false"></div>
+            <button type="button" class="btn btn-primary" id="liveAlertBtn">El botón</button>
+          </section>
+
+          <section aria-labelledby="formHeading">
+            <h2 class="h4" id="formHeading">Formulario de contacto</h2>
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">Formulario de demostración: tu mensaje no se envía a un servidor.</div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <p id="formStatus" class="text-success mt-3 mb-0" role="status"></p>
+            </form>
+          </section>
+        </div>
+      </section>
+      <aside class="col-2">
+        <div class="bg-primary-subtle rounded p-3 h-100">El lado derecho</div>
+      </aside>
+    </div>
+    <div class="row">
+      <footer class="col-12"><div class="bg-dark text-white text-center rounded p-3">Pie de página</div></footer>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

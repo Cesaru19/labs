@@ -1,0 +1,9 @@
+body {
+  min-height: 100vh;
+  background-color: #f4f6fa;
+}
+
+/* Keep the required 2 / 8 / 2 grid readable on narrow screens. */
+.col-2 {
+  overflow-wrap: anywhere;
+}
