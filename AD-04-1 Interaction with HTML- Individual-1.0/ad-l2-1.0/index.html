@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¡Ciudad Hamburguesa!</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1><button type="button" class="boton-titulo ciudad-hamburguesa">¡Ciudad Hamburguesa!</button></h1>
+      <p>¡Bienvenido a Ciudad Hamburguesa! ¡Nos encantan las hamburguesas!</p>
+      <p>¡No es solo un sándwich, es una hamburguesa!</p>
+    </header>
+
+    <section aria-labelledby="titulo-imagen">
+      <h2><button type="button" class="boton-titulo ciudad-hamburguesa">¡Ciudad Hamburguesa!</button></h2>
+      <h2 id="titulo-imagen">¡Una imagen de una hamburguesa!</h2>
+      <img src="Burger4.svg" alt="Ilustración de una hamburguesa con carne, queso y lechuga" class="imagen-hamburguesa">
+    </section>
+
+    <section aria-labelledby="titulo-lista">
+      <h2 id="titulo-lista">¡Aquí tienes una lista de hamburguesas!</h2>
+      <ul>
+        <li>¡Hamburguesa!</li>
+        <li>¡Hamburguesas!</li>
+        <li>¡Más hamburguesas!</li>
+        <li>¡Hamburguesa con <button type="button" class="boton-arroz">ARROZ</button>!</li>
+        <li>¡Hamburguesas con más <button type="button" class="boton-arroz">ARROZ</button>!</li>
+        <li>¡Hamburguesas con queso y <button type="button" class="boton-arroz">ARROZ</button>!</li>
+        <li>¡Hamburguesas, pero solo son <button type="button" class="boton-arroz">ARROZ</button>!</li>
+      </ul>
+    </section>
+
+    <section aria-label="Visítanos">
+      <h2><button type="button" class="boton-titulo ciudad-hamburguesa">¡Ciudad Hamburguesa!</button></h2>
+      <h3><button type="button" class="boton-visita" onclick="mostrarAlerta()">¡VEN A CIUDAD HAMBURGUESA!</button></h3>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff4df;
+  color: #39271d;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  width: min(100% - 2rem, 850px);
+  margin: 2rem auto;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  background: white;
+  border-radius: 16px;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: clamp(2rem, 6vw, 3rem);
+}
+
+section {
+  margin-top: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.boton-titulo {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #9c3509;
+  font: inherit;
+  font-weight: inherit;
+  text-align: left;
+}
+
+.boton-titulo:hover {
+  text-decoration: underline;
+}
+
+.imagen-hamburguesa {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+li {
+  margin-bottom: .65rem;
+}
+
+.boton-arroz {
+  padding: .1rem .4rem;
+  border: 1px solid #9c3509;
+  border-radius: 4px;
+  background: #fff4df;
+  color: #9c3509;
+  font: inherit;
+  font-weight: bold;
+}
+
+.boton-visita {
+  padding: .85rem 1.2rem;
+  border: 0;
+  border-radius: 8px;
+  background: #9c3509;
+  color: white;
+  font: inherit;
+}
+
+.boton-visita:hover {
+  background: #792907;
+}
+
+button:focus-visible {
+  outline: 3px solid #174ea6;
+  outline-offset: 4px;
+}
