@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bitácora web de Cesar Joseph Luna Chiu: una actividad de HTML y CSS con tres páginas conectadas.">
+  <title>Inicio | Bitácora web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header class="cabecera"><nav class="navegacion" aria-label="Navegación principal"><a href="index.html" class="activo" aria-current="page">Inicio</a><a href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a></nav></header>
+  <main id="contenido" class="contenido">
+    <section class="portada">
+      <p class="etiqueta">Bitácora web · Por Cesar Joseph Luna Chiu</p>
+      <h1>Una página a la vez.</h1>
+      <p class="introduccion">Ideas y ejercicios para entender cómo se construye una página web: desde su primera etiqueta hasta los detalles que hacen más agradable leerla.</p>
+      <a class="enlace-destacado" href="#articulos">Explorar los artículos <span aria-hidden="true">↓</span></a>
+    </section>
+    <section id="articulos" aria-labelledby="titulo-articulos">
+      <div class="encabezado-seccion"><h2 id="titulo-articulos">Notas de desarrollo</h2><span>HTML · CSS · Diseño</span></div>
+      <article class="articulo">
+        <div><p class="etiqueta">01 / Estructura</p><h3>Antes del color, el contenido</h3><p>El HTML organiza lo que cuenta una página. Un título presenta la idea principal; los párrafos la desarrollan y las imágenes ayudan a explicarla.</p><p>Etiquetas como <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> y <code>&lt;footer&gt;</code> permiten reconocer la navegación, el contenido y el cierre del sitio. Una estructura clara facilita leerlo y mantenerlo.</p><h4>Una idea para practicar</h4><p>Escribe primero el contenido sin estilos. Comprueba que los títulos sigan un orden y que cada enlace describa su destino.</p></div>
+        <img src="Pic/estructura.svg" width="640" height="440" alt="Esquema de una página con navegación, contenido principal y pie de página">
+      </article>
+      <article class="articulo">
+        <div><p class="etiqueta">02 / Presentación</p><h3>El espacio también comunica</h3><p>CSS define cómo se presenta el contenido. El tamaño de letra, la separación entre bloques y el contraste pueden hacer que una lectura resulte cómoda.</p><p>Una sola hoja de estilos permite que varias páginas compartan colores, márgenes y tipografía. Así, el visitante reconoce el mismo sitio al cambiar de sección.</p><h4>Una idea para practicar</h4><p>Prueba diferentes anchos de ventana. Si una imagen se sale de su contenedor o el texto queda demasiado apretado, ajusta el diseño para pantallas pequeñas.</p></div>
+        <img src="Pic/diseno.svg" width="640" height="440" alt="Ilustración de una composición con bloques de color, líneas de texto y espacios entre elementos" loading="lazy">
+      </article>
+      <article class="nota-final"><p class="etiqueta">03 / Navegación</p><h3>Tres páginas, una misma experiencia</h3><p>El menú superior conecta Inicio, Sobre mí y Contacto. Permanece visible al desplazarte y señala la sección en la que estás. El pie de página reúne el nombre del proyecto, la autoría y el correo de demostración.</p><a href="sobre-mi.html">Conocer el propósito del blog →</a></article>
+    </section>
+  </main>
+  <footer class="pie"><div><p class="nombre-proyecto">Bitácora web</p><p>Un blog para explorar HTML y CSS.</p></div><div><p>Autor del sitio</p><ul class="autores"><li>Cesar Joseph Luna Chiu</li></ul></div><div><p>Contacto</p><a href="mailto:cesar.chiu17@gmail.com">cesar.chiu17@gmail.com</a></div></footer>
+</body>
+</html>
+
